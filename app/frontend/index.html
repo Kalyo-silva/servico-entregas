@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Serviço de Entregas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <h1>Serviço de Entregas</h1>
+
+    <form id="deliveryForm">
+
+      <input
+        type="text"
+        id="customer_name"
+        placeholder="Nome do Cliente"
+        required
+      >
+
+      <input
+        type="text"
+        id="order_id"
+        placeholder="ID do Pedido"
+        required
+      >
+
+      <input
+        type="text"
+        id="address"
+        placeholder="Endereço"
+        required
+      >
+
+      <button type="submit">
+        Criar Entrega
+      </button>
+
+    </form>
+
+    <div id="deliveryList"></div>
+
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
